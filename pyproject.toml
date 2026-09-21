@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credit-explain-ai"
+version = "0.1.0"
+description = "Preference tuned LLM for auditable credit risk explanations"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]

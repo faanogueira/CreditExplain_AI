@@ -1,0 +1,46 @@
+seed: 42
+base_model: Qwen/Qwen2.5-3B-Instruct
+max_length: 2048
+output_dir: artifacts
+
+qlora:
+  load_in_4bit: true
+  quant_type: nf4
+  double_quant: true
+  compute_dtype: bfloat16
+  lora_r: 32
+  lora_alpha: 64
+  lora_dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+sft:
+  epochs: 1
+  learning_rate: 0.0001
+  batch_size: 2
+  gradient_accumulation_steps: 16
+  warmup_ratio: 0.05
+  logging_steps: 10
+  eval_steps: 200
+  save_steps: 200
+
+dpo:
+  epochs: 1
+  learning_rate: 0.00005
+  beta: 0.1
+  batch_size: 1
+  gradient_accumulation_steps: 32
+  warmup_ratio: 0.05
+
+judge:
+  epochs: 1
+  learning_rate: 0.00005
+  batch_size: 2
+  gradient_accumulation_steps: 16
+  label_smoothing: 0.03
