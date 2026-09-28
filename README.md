@@ -1,5 +1,11 @@
 # CreditExplain AI
 
+<div align="center">
+  <img src="CreditExplain_AI.jpg" width="100%" alt="Capa do Projeto">
+</div>
+
+<div align="center">
+
 ## Sistema de explicações de risco de crédito com LLM especializado por preference fine tuning
 
 CreditExplain AI é um projeto de IA aplicada para transformar sinais produzidos por um motor de risco de crédito em explicações claras, consistentes e auditáveis. O LLM não decide concessão de crédito. A decisão e o score permanecem em um modelo de risco separado. O LLM atua somente na camada explicativa.
