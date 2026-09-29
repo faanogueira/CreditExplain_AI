@@ -3,9 +3,9 @@
 <div align="center">
   <img src="credit_explain_capa.jpg" width="100%" alt="Capa do Projeto CreditExplain AI">
 </div>
-<br>
-<div align="center">
 
+<br>
+<p align="center">
 ![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.4+-EE4C2C?logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/Hugging%20Face-Transformers%20%26%20TRL-FFD21E?logo=huggingface&logoColor=black)
@@ -14,8 +14,9 @@
 ![Tests](https://img.shields.io/badge/tests-5%20passing-2ECC71)
 ![Dataset](https://img.shields.io/badge/Dataset-CC%20BY--NC%204.0-orange)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+</p>
 
-</div>
+---
 
 > **CreditExplain AI**: Seu especialista autônomo em explicabilidade e governança de crédito via LLM.
 > Um sistema de **geração de explicações auditáveis para decisões de risco de crédito**, alinhado por **preference fine-tuning em 2 estágios (SFT + DPO com QLoRA 4-bit)** sobre 57.477 comparações humanas reais e 12.000 cenários de risco de crédito, blindado por um **validador de políticas determinístico** e um **juiz de preferências (preference judge de 3 classes)**.
