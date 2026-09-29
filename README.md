@@ -3,7 +3,8 @@
 <div align="center">
   <img src="credit_explain_capa.jpg" width="100%" alt="Capa do Projeto CreditExplain AI">
 </div>
-
+<br>
+<div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.4+-EE4C2C?logo=pytorch&logoColor=white)
