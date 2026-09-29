@@ -1,7 +1,7 @@
 # CreditExplain AI
 
 <div align="center">
-  <img src="CreditExplain_AI.jpg" width="100%" alt="Capa do Projeto">
+  <img src="credit_explain_capa.jpg" width="100%" alt="Capa do Projeto">
 </div>
 
 <div align="center">
