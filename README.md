@@ -1,4 +1,6 @@
-# 🛡️💳 CreditExplain AI — Sistema Especializado de Explicabilidade de Risco de Crédito com LLM & Preference Alignment (SFT + DPO)
+# 🛡️💳 CreditExplain AI
+
+### Sistema Especializado de Explicabilidade de Risco de Crédito com LLM & Preference Alignment (SFT + DPO)
 
 <div align="center">
   <img src="credit_explain_capa.jpg" width="100%" alt="Capa do Projeto CreditExplain AI">
